@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- main css link -->
+    <link rel="stylesheet" href="./dist/main.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <title>Kaur's Coffee</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="container shadow-md px-20 py-5 flex justify-between">
+      <div>
+        <span class="text-primary font-serif text-3xl font-bold"
+          >Kaur's Coffee</span
+        >
+      </div>
+      <div class="flex space-x-5 text-lg capitalize text-primary font-serif">
+        <div
+          class="flex cursor-pointer justify-center hover:text-blue-400 items-center space-x-2"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <span>Contact Us</span>
+        </div>
+        <div
+          class="flex justify-center cursor-pointer hover:text-blue-400 items-center space-x-2"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <span> Direction </span>
+        </div>
+      </div>
+    </div>
+    <!-- Header -->
+    <div class="text-center py-20">
+      <div>
+        <h1 class="text-primary font-serif font-bold text-6xl">
+          Kaur's Coffee
+        </h1>
+      </div>
+      <div>
+        <p class="text-2xl font-serif pt-5">Cafe in Vancouver</p>
+      </div>
+      <!-- Header img -->
+      <div>
+        <img src="./photos/coffe.jpg" class="w-2/4 mx-auto" alt="" />
+      </div>
+    </div>
+    <div>
+      <h1 class="text-xl font-bold text-center">CONTACT US</h1>
+      <div class="lg:px-20 px-0 py-10">
+        <iframe
+          class="mx-auto w-full"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d41681.81969481913!2d-123.069116!3d49.2363329!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548671359ba7b571%3A0x10d5824c1dfd93e9!2sKaur&#39;s%20Coffee!5e0!3m2!1sen!2sbd!4v1652443573694!5m2!1sen!2sbd"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class=" px-20 py-5">
+      <div class="grid grid-cols-2">
+        <div>
+          <h1 class="text-2xl font-bold py-5">Address</h1>
+          <button class="bg-primary text-white py-3 px-5 rounded">
+            GET DIRECTION
+          </button>
+        </div>
+        <div>
+          <h1 class="text-2xl py-5 font-bold">Business Hours</h1>
+          <ul class="flex flex-col space-y-2 text-lg font-semibold">
+            <li>Monday: 09:00-16:00</li>
+            <li>Tuesday: 09:00-16:00</li>
+            <li>Wednesday: 09:00-16:00</li>
+            <li>Thursday: 09:00-16:00</li>
+            <li>Friday: 09:00-16:00</li>
+            <li>Saturday: Closed</li>
+          </ul>
+        </div>
+      </div>
+      <div class="text-center text-primary border-t-[1px] mt-5 border-gray-500">
+        &copy; Kaur's Coffee
+      </div>
+    </footer>
+  </body>
+</html>
